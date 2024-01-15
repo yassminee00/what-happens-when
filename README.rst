@@ -224,6 +224,13 @@ DNS lookup
 * If the DNS server is on a different subnet, the network library follows
   the ``ARP process`` below for the default gateway IP.
 
+Load Balancer
+As soon as the connection is established, the browser (client) and Google’s website (server) can communicate with one another over HTTPS protocol. In a situation where there are numerous requests for a website, the load balancer distributes the requests across several servers to prevent downtimes and Single Point of Failure (SPOF).
+
+FIREWALL
+
+A digital security system that scrutinizes all incoming and outgoing traffic on a network according to a defined set of rules. A firewall blocks unauthorized traffic and allows only communications that are considered safe, using a set of security rules provided by a network administrator.
+
 
 ARP process
 -----------
